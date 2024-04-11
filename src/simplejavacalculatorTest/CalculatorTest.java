@@ -27,7 +27,7 @@ class CalculatorTest {
 	@Test
 	void calculateBiMinusTest() {
 		Calculator calculator = new Calculator();
-		calculator.calculateBi(Calculator.BiOperatorModes.minus, 3.1415);
+		calculator.calculateBi(Calculator.BiOperatorModes.minus, 3.1715);
 		Assertions.assertEquals(2.0415, calculator.calculateBi(Calculator.BiOperatorModes.normal, 1.1));
 	}
 	
