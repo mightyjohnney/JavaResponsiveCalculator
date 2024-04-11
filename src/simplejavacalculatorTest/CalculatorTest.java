@@ -20,7 +20,7 @@ class CalculatorTest {
 	@Test
 	void calculateBiAddTest() {
 		Calculator calculator = new Calculator();
-		calculator.calculateBi(Calculator.BiOperatorModes.add, 3.0);
+		calculator.calculateBi(Calculator.BiOperatorModes.add, 4.0);
 		Assertions.assertEquals(5.5, calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.5));
 	}
 	
