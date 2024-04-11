@@ -86,7 +86,7 @@ class CalculatorTest {
 	@Test
 	void CalculateMonoCosTest() {
 		Calculator calculator = new Calculator();
-		Assertions.assertEquals(0.5, calculator.calculateMono(Calculator.MonoOperatorModes.cos, java.lang.Math.PI / 3), 0.0000000001);
+		Assertions.assertEquals(0.56, calculator.calculateMono(Calculator.MonoOperatorModes.cos, java.lang.Math.PI / 3), 0.0000000001);
 	}
 	
 	@Test
