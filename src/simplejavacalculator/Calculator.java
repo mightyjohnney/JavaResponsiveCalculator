@@ -123,7 +123,6 @@ public class Calculator {
             return Math.abs(num);
         }
 
-        // never reach
         throw new Error();
     }
 
