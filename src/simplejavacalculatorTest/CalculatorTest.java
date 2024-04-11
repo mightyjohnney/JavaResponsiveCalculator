@@ -60,13 +60,11 @@ class CalculatorTest {
 		Assertions.assertEquals(8.4, calculator.calculateBi(Calculator.BiOperatorModes.add, 2.0));
 		Assertions.assertEquals(NaN, calculator.reset());		
 	}
-	
 	@Test
 	void CalculateMonoSquareTest() {
 		Calculator calculator = new Calculator();
 		Assertions.assertEquals(9.0, calculator.calculateMono(Calculator.MonoOperatorModes.square, 3.0));
 	}
-	
 	@Test
 	void CalculateMonoSquareRootTest() {
 		Calculator calculator = new Calculator();
